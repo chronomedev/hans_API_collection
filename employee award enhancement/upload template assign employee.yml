@@ -1,0 +1,61 @@
+info:
+  name: upload template assign employee
+  type: http
+  seq: 14
+
+http:
+  method: POST
+  url: http://localhost:3030/employeeAward/assign/listEmp/upload-template
+  headers:
+    - name: authority
+      value: api.greatdayhr.com
+    - name: method
+      value: POST
+    - name: path
+      value: /v2/sfFormula/getReserword?limit=999999&page=1&$account_code=sfgo5533
+      disabled: true
+    - name: scheme
+      value: https
+    - name: accept
+      value: application/json, text/plain, */*
+    - name: accept-encoding
+      value: gzip, deflate, br
+    - name: accept-language
+      value: de-ID,de;q=0.9,en-ID;q=0.8,en;q=0.7,de-DE;q=0.6,en-US;q=0.5
+    - name: authorization
+      value: SFGO1757051623187014506771456538914
+    - name: content-length
+      value: "25"
+      disabled: true
+    - name: content-type
+      value: application/json
+    - name: origin
+      value: https://app.greatdayhr.com
+    - name: recallrefreshtoken
+      value: "false"
+    - name: referer
+      value: https://app.greatdayhr.com/
+    - name: sec-ch-ua
+      value: ' Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91'
+    - name: sec-ch-ua-mobile
+      value: ?0
+    - name: sec-fetch-dest
+      value: empty
+    - name: sec-fetch-mode
+      value: cors
+    - name: sec-fetch-site
+      value: same-site
+    - name: timeout
+      value: "30000"
+    - name: user-agent
+      value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+  body:
+    type: json
+    data: ""
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

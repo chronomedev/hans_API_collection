@@ -1,0 +1,198 @@
+info:
+  name: process data upload template award type
+  type: http
+  seq: 12
+
+http:
+  method: POST
+  url: http://localhost:3030/employeeAward/type/list/template/process-upload-data
+  headers:
+    - name: authority
+      value: api.greatdayhr.com
+    - name: method
+      value: POST
+    - name: path
+      value: /v2/sfFormula/getReserword?limit=999999&page=1&$account_code=sfgo5533
+      disabled: true
+    - name: scheme
+      value: https
+    - name: accept
+      value: application/json, text/plain, */*
+    - name: accept-encoding
+      value: gzip, deflate, br
+    - name: accept-language
+      value: de-ID,de;q=0.9,en-ID;q=0.8,en;q=0.7,de-DE;q=0.6,en-US;q=0.5
+    - name: authorization
+      value: SFGO1763432018813023895252177074644
+    - name: content-length
+      value: "25"
+      disabled: true
+    - name: content-type
+      value: application/json
+    - name: origin
+      value: https://app.greatdayhr.com
+    - name: recallrefreshtoken
+      value: "false"
+    - name: referer
+      value: https://app.greatdayhr.com/
+    - name: sec-ch-ua
+      value: ' Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91'
+    - name: sec-ch-ua-mobile
+      value: ?0
+    - name: sec-fetch-dest
+      value: empty
+    - name: sec-fetch-mode
+      value: cors
+    - name: sec-fetch-site
+      value: same-site
+    - name: timeout
+      value: "30000"
+    - name: user-agent
+      value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+  body:
+    type: json
+    data: |-
+      [
+              {
+                  "achievementCode": "AWARD16",
+                  "achievementName": "Best Attendance edit",
+                  "description": "Diberikan kepada karyawan dengan kehadiran dan ketepatan waktu terbaik."
+              },
+              {
+                  "achievementCode": "AWARD22",
+                  "achievementName": "Best Collaborator",
+                  "description": "Diberikan kepada karyawan yang mampu bekerja lintas tim dengan baik."
+              },
+              {
+                  "achievementCode": "AWARD10",
+                  "achievementName": "Best Innovator",
+                  "description": "Untuk karyawan yang membawa perubahan positif melalui ide kreatif."
+              },
+              {
+                  "achievementCode": "AWARD12",
+                  "achievementName": "Best Mentor",
+                  "description": "Diberikan kepada karyawan yang berperan aktif membimbing rekan kerja lainnya."
+              },
+              {
+                  "achievementCode": "AWARD1",
+                  "achievementName": "Best Team Player",
+                  "description": "Penghargaan bagi karyawan yang menunjukkan kerja sama tim luar biasa."
+              },
+              {
+                  "achievementCode": "AWARD20",
+                  "achievementName": "Community Service Award",
+                  "description": "Diberikan kepada karyawan yang aktif dalam kegiatan sosial perusahaan."
+              },
+              {
+                  "achievementCode": "AWARD21",
+                  "achievementName": "Creative Thinker",
+                  "description": "Untuk karyawan yang menghasilkan ide-ide kreatif dan segar."
+              },
+              {
+                  "achievementCode": "AWARD15",
+                  "achievementName": "Cultural Ambassador",
+                  "description": "Penghargaan bagi karyawan yang mencerminkan nilai dan budaya perusahaan."
+              },
+              {
+                  "achievementCode": "AWARD4",
+                  "achievementName": "Customer Excellence",
+                  "description": "Penghargaan untuk pelayanan terbaik kepada pelanggan."
+              },
+              {
+                  "achievementCode": "AWARD23",
+                  "achievementName": "Eco Champion",
+                  "description": "Penghargaan untuk karyawan yang peduli pada kelestarian lingkungan."
+              },
+              {
+                  "achievementCode": "AWARD0",
+                  "achievementName": "Employee of the Month",
+                  "description": "Diberikan kepada karyawan dengan kinerja terbaik selama satu bulan terakhir."
+              },
+              {
+                  "achievementCode": "AWARD11",
+                  "achievementName": "Excellence in Communication",
+                  "description": "Penghargaan untuk kemampuan komunikasi yang efektif dan profesional."
+              },
+              {
+                  "achievementCode": "AWARD17",
+                  "achievementName": "Excellence in Customer Support",
+                  "description": "Penghargaan untuk karyawan dengan pelayanan pelanggan terbaik."
+              },
+              {
+                  "achievementCode": "AWARD3",
+                  "achievementName": "Innovation Award",
+                  "description": "Untuk karyawan yang berhasil menciptakan ide atau solusi inovatif dalam pekerjaan."
+              },
+              {
+                  "achievementCode": "AWARD6",
+                  "achievementName": "Lifetime Achievement",
+                  "description": "Penghargaan atas dedikasi dan kontribusi jangka panjang terhadap perusahaan."
+              },
+              {
+                  "achievementCode": "AWARD24",
+                  "achievementName": "Long Service Award",
+                  "description": "Diberikan kepada karyawan yang telah bekerja selama lebih dari 10 tahun."
+              },
+              {
+                  "achievementCode": "AWARD25",
+                  "achievementName": "Menang",
+                  "description": "Menang kalan sudah biasa"
+              },
+              {
+                  "achievementCode": "AWARD7",
+                  "achievementName": "Most Improved Employee",
+                  "description": "Untuk karyawan yang menunjukkan peningkatan performa paling signifikan."
+              },
+              {
+                  "achievementCode": "AWARD2",
+                  "achievementName": "Outstanding Leadership",
+                  "description": "Diberikan kepada pemimpin tim yang berhasil memotivasi dan menginspirasi anggotanya."
+              },
+              {
+                  "achievementCode": "AWARD9",
+                  "achievementName": "Perfect Attendance",
+                  "description": "Diberikan kepada karyawan yang hadir tanpa absen selama periode tertentu."
+              },
+              {
+                  "achievementCode": "AWARD13",
+                  "achievementName": "Problem Solver Award",
+                  "description": "Untuk karyawan yang mampu menyelesaikan masalah kompleks dengan efisien."
+              },
+              {
+                  "achievementCode": "AWARD14",
+                  "achievementName": "Productivity Award",
+                  "description": "Diberikan kepada karyawan dengan tingkat produktivitas tertinggi."
+              },
+              {
+                  "achievementCode": "AWARD5",
+                  "achievementName": "Rising Star",
+                  "description": "Diberikan kepada karyawan baru dengan potensi dan performa luar biasa."
+              },
+              {
+                  "achievementCode": "AWARD8",
+                  "achievementName": "Safety Champion",
+                  "description": "Penghargaan bagi karyawan yang menjaga dan mempromosikan keselamatan kerja."
+              },
+              {
+                  "achievementCode": "AWARD19",
+                  "achievementName": "Sales Achievement Award",
+                  "description": "Penghargaan atas pencapaian target penjualan tertinggi."
+              },
+              {
+                  "achievementCode": "AWARD18",
+                  "achievementName": "Technical Excellence",
+                  "description": "Diberikan kepada karyawan yang menunjukkan keahlian teknis luar biasa."
+              },
+              {
+                  "achievementCode": "AWARD7777",
+                  "achievementName": "Letkol Tituler",
+                  "description": "Penghargaan Letkol Tituler"
+              }
+          ]
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
