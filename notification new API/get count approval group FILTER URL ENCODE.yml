@@ -1,0 +1,98 @@
+info:
+  name: get count approval group FILTER URL ENCODE
+  type: http
+  seq: 3
+
+http:
+  method: GET
+  url: http://localhost:3030/notification/getCountApprovalGroupOutstanding?startDate=2026-08-01&endDate=2026-08-31&reqNo=&status%5B0%5D=2&status%5B1%5D=3&status%5B2%5D=9&requestBy%5B0%5D=DO230012&requestFor%5B0%5D=DO260160&requestFor%5B1%5D=DO230005&requestFor%5B2%5D=DO230002&type=history
+  headers:
+    - name: accept
+      value: application/json
+    - name: accept-language
+      value: en-US,en;q=0.9
+    - name: account
+      value: sfgo10272
+    - name: app
+      value: gd8
+    - name: authorization
+      value: SFGO1787025568757020343814024509144
+    - name: content-type
+      value: application/json; charset=utf-8
+    - name: empid
+      value: DO230012
+    - name: key
+      value: ""
+    - name: lang
+      value: en
+    - name: model
+      value: SM-G981B
+    - name: ngsw-bypass
+      value: ""
+    - name: origin
+      value: http://localhost:4211
+    - name: platform
+      value: web
+    - name: priority
+      value: u=1, i
+    - name: referer
+      value: http://localhost:4211/
+    - name: sec-ch-ua
+      value: '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"'
+    - name: sec-ch-ua-mobile
+      value: ?1
+    - name: sec-ch-ua-platform
+      value: '"Android"'
+    - name: sec-fetch-dest
+      value: empty
+    - name: sec-fetch-mode
+      value: cors
+    - name: sec-fetch-site
+      value: cross-site
+    - name: timeout
+      value: "60000"
+    - name: user-agent
+      value: Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36
+    - name: userid
+      value: "12"
+  params:
+    - name: startDate
+      value: 2026-08-01
+      type: query
+    - name: endDate
+      value: 2026-08-31
+      type: query
+    - name: reqNo
+      value: ""
+      type: query
+    - name: status%5B0%5D
+      value: "2"
+      type: query
+    - name: status%5B1%5D
+      value: "3"
+      type: query
+    - name: status%5B2%5D
+      value: "9"
+      type: query
+    - name: requestBy%5B0%5D
+      value: DO230012
+      type: query
+    - name: requestFor%5B0%5D
+      value: DO260160
+      type: query
+    - name: requestFor%5B1%5D
+      value: DO230005
+      type: query
+    - name: requestFor%5B2%5D
+      value: DO230002
+      type: query
+    - name: type
+      value: history
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
